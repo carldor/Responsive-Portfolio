@@ -1,13 +1,6 @@
 body{
-	width: 1357px;
+	width: 960px;
 	background-image: url("../images/background_3.png");
-}
-aside{
-	background-color: white;
-	margin: 40px 0px 0px 0px;
-	width: 240px;
-	float: right;
-	border: 1px solid #dddddd;
 }
 nav{
 	width: 960px;
@@ -22,8 +15,36 @@ section{
 	border: 1px solid #dddddd;
 	width: 600px;
 }
+aside{
+	background-color: white;
+	margin: 40px 0px 0px 0px;
+	width: 240px;
+	float: right;
+	border: 1px solid #dddddd;
+}
+h3{
+	font-family:"Georgia";
+	font-size: 18px;
+	font-weight: bold;
+}
+footer{
+	border-top: 10px solid #4aaaa5;
+	background-color: #666666;
+	width: 1116px;
+	height: 100px;
+	float: left;
+}
+.portimg {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 178px;
+}
+.portimg:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
 .pageheader{
-	width: 1357px;
+	width: 1116px;
 	background-color: white;
 	float: left;
 	border-bottom: 2px solid #cccccc;
@@ -71,6 +92,9 @@ section{
 #lastpage{
 	border-right: none;
 }
+.pages:hover { 
+    background-color: #F5F5F5;
+}
 .connect{
 	color: #4aaaa5;
 	text-align: center; 
@@ -83,18 +107,6 @@ section{
 }
 .nodec{
 	text-decoration: none;
-}
-h3{
-	font-family:"Georgia";
-	font-size: 18px;
-	font-weight: bold;
-}
-footer{
-	border-top: 10px solid #4aaaa5;
-	background-color: #666666;
-	width: 1357px;
-	height: 100px;
-	float: left;
 }
 .maintitle{
 	font-family:"Georgia";
@@ -115,6 +127,8 @@ footer{
 .profile{
 	float: left;
 	margin: 0px 20px 10px 0px;
+	height: 150px;
+	width: 200 px;
 }
 .content{
 	margin: 20px 20px 20px 0px;
@@ -124,4 +138,91 @@ footer{
 }
 #bio{
 	line-height: 2.0em;
+	margin-bottom: 20px;
+}
+.textbox{
+	margin-bottom: 10px;
+	padding: 5px;
+	width: 600px;
+}
+#messagebox{
+	height: 200px;
+}
+.btnSubmit{
+	background-color: #4aaaa5;
+	font-family:"Georgia";
+	color: white;
+	border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 980px){
+
+	body{
+		width: 980px;
+	}
+
+	.container{
+		width: 750px;
+		margin: 0px 0px 0px 130px;
+	}
+
+	nav{
+		width: 850px;
+		margin: 0px 0px 0px 130px
+	}
+
+	#rightnav{
+		width: 510px;
+	}
+
+	.pageheader{
+		width: 980px;
+	}
+
+	.profile{
+		height: 100%;
+		width: 100%;
+	}
+
+	.content{
+		margin: 30px 0px 20px 0px;
+
+	}
+
+	section{
+		padding: 0px 30px 40px 30px;
+		width: 418px;
+	}
+
+	footer{
+		width: 980px;
+	}
+
+	.textbox{
+		margin-bottom: 10px;
+		padding: 5px;
+		width: 400px;
+	}
+
+	#messagebox{
+		height: 200px;
+	}
+
+	.portimg {
+    	width: 100%;
+	}
+}
+
+@media screen and (max-width: 768px){
+	
+}
+
+@media screen and (max-width: 640px){
+	
 }

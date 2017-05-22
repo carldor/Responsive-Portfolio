@@ -4,6 +4,7 @@
 	<title>Basic Portfolio</title>
 	<link rel="stylesheet" type="text/css" href="assets\css\reset.css">
 	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 
@@ -29,16 +30,16 @@
 	 <h2 class="maintitle">Contact</h2>
 	</div>
 	<form class="content">
-		Name<br>
-		<input type="text" name="Name">
+		<p>Name</p><br>
+		<input class="textbox" type="text" placeholder="John Smith" name="Name">
 		<br>
-		Email<br>
-		<input type="text" name="Email">
+		<p>Email</p><br>
+		<input class="textbox" type="text" placeholder="example@gmail.com" name="Email">
 		<br>
-		Message<br>
-		<input type="text" name="Message">
+		<p>Message</p><br>
+		<textarea class="textbox" id="messagebox" name="Message"></textarea>
 		<br>
-		<button>Submit</button>
+		<button class="btnSubmit">Submit</button>
 	</form>
 </section>
 
@@ -58,7 +59,7 @@
 	 </a>
 	</div>
 </aside>
-
+</div>
 <footer class="copyright">
 	<p>&copy; Copyright 2016 Carl Dor</p>
 </footer>
