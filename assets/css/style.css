@@ -280,9 +280,94 @@ footer{
 		width: 100%;
 		margin: 0px 0px 40px 0px;
 	}
+
+	.connect{
+		text-align: left;
+		padding: 20px 0px 20px 20px;
+	}
 	
 }
 
 @media screen and (max-width: 640px){
+
+	body{
+		width: 640px;
+	}
+
+	.container{
+		width: 600px;
+		margin: 0px 20px 0px 20px;
+	}
+
+	nav{
+		width: 640px;
+		margin: 0px 0px 0px 0px
+	}
+
+	#rightnav{
+		height: 100%;
+		width: 100%;
+		margin: 0px;
+	}
+
+	#leftnav{
+	width: 640px;
+	}
+
+	#linkpage{
+		height: 65px;
+		width: 100%;
+	}
+
+	.pages{
+		width: 30%;
+	}
+
+	.pageheader{
+		width: 640px;
+	}
+
+	.profile{
+		height: 100%;
+		width: 100%;
+	}
+
+	.content{
+		margin: 30px 0px 30px 0px;
+
+	}
+
+	section{
+		padding: 0px 30px 40px 30px;
+		width: 540px;
+	}
+
+	footer{
+		width: 640px;
+	}
+
+	.textbox{
+		margin-bottom: 10px;
+		padding: 5px;
+		width: 520px;
+	}
+
+	#messagebox{
+		height: 200px;
+	}
+
+	.portimg {
+    	width: 100%;
+	}
+
+	aside{
+		width: 100%;
+		margin: 0px 0px 40px 0px;
+	}
+
+	.connect{
+		text-align: left;
+		padding: 20px 0px 20px 20px;
+	}
 	
 }
